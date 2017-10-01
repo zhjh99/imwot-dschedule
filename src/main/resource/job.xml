@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <config>
 	<job zookeeperAddress="127.0.0.1:2181" zookeeperPath="/jstar"
-		distributed="true">
+		distributed="false">
 
 		<name>Example</name>
 		<description>Example</description>
-		<className>com.imwot.distributed.schedule.framework.job.example.Example
+		<className>com.imwot.distributed.schedule.framework.job.example.MysqlExample
 		</className>
 		<time>*/5 * * * * ?</time>
 	</job>

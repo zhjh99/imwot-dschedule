@@ -25,9 +25,10 @@
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package com.imwot.distributed.schedule.framework.cron;
+package com.imwot.distributed.schedule.framework.interfaces;
 
 import com.imwot.distributed.schedule.framework.AbstractLog;
+import com.imwot.distributed.schedule.framework.cron.Environment;
 
 /**
  * 任务抽象类

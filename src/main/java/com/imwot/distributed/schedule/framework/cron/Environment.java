@@ -30,6 +30,8 @@ package com.imwot.distributed.schedule.framework.cron;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.imwot.distributed.schedule.framework.interfaces.AbstractJob;
+
 /**
  * 全局变量
  * 

@@ -53,8 +53,8 @@
 	</bean>
 
 	<!-- 事务 -->
-	<bean id="transactionManager"
-		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+	<bean id="transactionManager1"
+	class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
 		<property name="dataSource" ref="mysql1_dataSource" />
 	</bean>
 </beans>

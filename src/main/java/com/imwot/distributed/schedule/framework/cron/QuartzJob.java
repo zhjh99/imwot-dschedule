@@ -37,6 +37,7 @@ import org.quartz.JobExecutionException;
 import org.quartz.PersistJobDataAfterExecution;
 
 import com.imwot.distributed.schedule.framework.AbstractLog;
+import com.imwot.distributed.schedule.framework.interfaces.AbstractJob;
 
 /**
  * QuartzJob

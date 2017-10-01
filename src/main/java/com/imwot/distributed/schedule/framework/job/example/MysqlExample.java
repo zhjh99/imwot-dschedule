@@ -27,20 +27,21 @@
  */
 package com.imwot.distributed.schedule.framework.job.example;
 
-import com.imwot.distributed.schedule.framework.interfaces.AbstractJob;
+import com.imwot.distributed.schedule.framework.interfaces.AbstractSqlJob;
 
 /**
  * 任务示例
  *
  * @author    jinhong zhou
  */
-public class Example extends AbstractJob{
+public class MysqlExample extends AbstractSqlJob{
 
 	/**   此方法覆盖父类的方法
 	 * @see com.imwot.distributed.schedule.framework.interfaces.jstar.distributed.schedule.framework.cron.AbstractJob#exec()
 	 */
 	@Override
 	public void exec() {
-		log.info("hello,world!");
+		int n=mysql1.queryForInt("select count(*) from text");
+		log.info(String.valueOf(n));
 	}
 }
